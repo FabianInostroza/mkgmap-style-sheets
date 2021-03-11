@@ -61,9 +61,9 @@ tourism=alpine_hut [0x2b02 resolution 24]
 tourism=artwork & name=* [0x2c04 resolution 24 continue]
 tourism=artwork {name '${tourism}'} [0x2803 resolution 24]
 
-tourism=viewpoint & name=* [0x2c04 resolution 22 continue]
+tourism=viewpoint & name=* [0x2814 resolution 22 continue]
 tourism=viewpoint & altitude=number {name '${name|def:} (${ele|def:}m)'} [0x2814 resolution 23]
-tourism=viewpoint [0x2814 resolution 23]
+tourism=viewpoint [0x2814 resolution 22]
 
 tourism=aquarium [0x2c07 resolution 24]
 tourism=camp_site & backcountry=* { name '${name} (backcountry)' | '${designation}(backcountry)' } [0x2b05 resolution 23]
